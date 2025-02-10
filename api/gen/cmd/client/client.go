@@ -1,58 +1,68 @@
-package client
+package main
 
 import (
-	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/auth"
-	"github.com/golang-jwt/jwt/v5"
-	"github.com/stretchr/testify/assert"
-	"os"
-	"testing"
+	"DouyinMerchant/api/gen/conf"
+	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/user"
+	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/user/userservice"
+	"context"
+	"github.com/cloudwego/hertz/pkg/app"
+	"github.com/cloudwego/hertz/pkg/app/server"
+	"github.com/cloudwego/kitex/client"
+	"github.com/cloudwego/kitex/pkg/transmeta"
+	"github.com/cloudwego/kitex/transport"
+	consul "github.com/kitex-contrib/registry-consul"
+	"log"
 )
 
-func TestDeliverTokenByRPCService_Run(t *testing.T) {
-	svc := &DeliverTokenByRPCService{}
+var (
+	cli userservice.Client
+)
 
-	tests := []struct {
-		name    string
-		userID  int64
-		wantErr bool
-	}{
-		{
-			name:    "valid user id",
-			userID:  123,
-			wantErr: false,
-		},
-		{
-			name:    "invalid user id",
-			userID:  0,
-			wantErr: true,
-		},
+func main() {
+	r, err := consul.NewConsulResolver(conf.GetConf().Registry.RegistryAddress[0])
+	if err != nil {
+		panic(err)
+	}
+	c, err := userservice.NewClient("user_service", client.WithResolver(r),
+		client.WithTransportProtocol(transport.GRPC),
+		client.WithMetaHandler(transmeta.ClientHTTP2Handler),
+		//client.WithFailureRetry(retry.NewFailurePolicy()),       //增加重试
+		//client.WithCircuitBreaker(circuitbreak.NewCBSuite(nil)), //增加熔断
+		//client.WithRPCTimeout(3*time.Second),                    //超时
+	)
+	cli = c
+	if err != nil {
+		panic(err)
+	}
+	hz := server.New(
+		server.WithHostPorts("localhost:8181"),
+		//server.WithMaxRequestBodySize(4*1024*1024), //限制body大小
+		//server.WithIdleTimeout(300*time.Second),    //限制空闲超时
+	)
+
+	hz.POST("/user_service", Handler)
+
+	if err := hz.Run(); err != nil {
+		log.Fatal(err)
+	}
+	//res, err := c.Register(context.Background(), &user.RegisterReq{Email: "2658536235@qq.com", Password: "test", ConfirmPassword: "test"})
+	//fmt.Printf("%v", res)
+}
+
+func Handler(ctx context.Context, c *app.RequestContext) {
+	req := user.RegisterReq{}
+	//req.Email = "22@bilibili.com"
+	//req.Password = "123"
+	//req.ConfirmPassword = "123"
+	if err := c.Bind(&req); err != nil {
+		c.String(400, err.Error())
+		return
+	}
+	resp, err := cli.Register(context.Background(), &req)
+	if err != nil {
+		c.String(500, err.Error())
+		log.Fatal(err)
 	}
 
-	for _, tt := range tests {
-		t.Run(tt.name, func(t *testing.T) {
-			req := &auth.DeliverTokenReq{
-				UserId: tt.userID,
-			}
-
-			resp, err := svc.Run(req)
-
-			if tt.wantErr {
-				assert.Error(t, err)
-				assert.Nil(t, resp)
-			} else {
-				assert.NoError(t, err)
-				assert.NotEmpty(t, resp.Token)
-
-				// 可选:验证token
-				token, err := jwt.Parse(resp.Token, func(token *jwt.Token) (interface{}, error) {
-					return []byte(os.Getenv("JWT_SECRET")), nil
-				})
-				assert.NoError(t, err)
-				assert.True(t, token.Valid)
-
-				claims := token.Claims.(jwt.MapClaims)
-				assert.Equal(t, float64(tt.userID), claims["user_id"])
-			}
-		})
-	}
+	c.String(200, resp.String())
 }

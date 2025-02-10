@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package product;
-option go_package = "douyin-ecommerce/api/product";
+option go_package = "douyin_merchant/product";
 
 service ProductService {
   rpc ListProducts(ListProductsReq) returns (ListProductsResp) {}

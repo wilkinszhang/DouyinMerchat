@@ -2,7 +2,8 @@ package main
 
 import (
 	"DouyinMerchant/api/gen/biz/dal"
-	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/auth/authservice"
+	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/user/userservice"
+	consul "github.com/kitex-contrib/registry-consul"
 	"net"
 	"time"
 
@@ -23,10 +24,15 @@ func main() {
 	}
 
 	opts := kitexInit()
+	//增加限流
+	//opts = append(opts, server.WithLimit(&limit.Option{
+	//	MaxConnections: 1000,
+	//	MaxQPS:         500,
+	//}))
 
 	dal.Init()
 
-	svr := authservice.NewServer(new(AuthServiceImpl), opts...)
+	svr := userservice.NewServer(new(UserServiceImpl), opts...)
 
 	err = svr.Run()
 	if err != nil {
@@ -46,6 +52,12 @@ func kitexInit() (opts []server.Option) {
 	opts = append(opts, server.WithServerBasicInfo(&rpcinfo.EndpointBasicInfo{
 		ServiceName: conf.GetConf().Kitex.Service,
 	}))
+
+	r, err := consul.NewConsulRegister(conf.GetConf().Registry.RegistryAddress[0])
+	if err != nil {
+		klog.Fatal(err)
+	}
+	opts = append(opts, server.WithRegistry(r))
 
 	// klog
 	logger := kitexlogrus.NewLogger()

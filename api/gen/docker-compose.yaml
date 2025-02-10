@@ -11,3 +11,9 @@ services:
     image: 'redis:latest'
     ports:
       - 6379:6379
+  consul:
+    image: "hashicorp/consul:1.20"
+    ports:
+      - "2379:8500"
+    environment:
+      CONSUL_BIND_INTERFACE: eth0

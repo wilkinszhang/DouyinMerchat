@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package user;
-option go_package = "douyin-ecommerce/api/user";
+option go_package = "douyin_merchant/user";
 
 service UserService {
   rpc Register(RegisterReq) returns (RegisterResp) {}

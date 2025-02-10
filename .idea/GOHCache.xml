@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GoORMHelperCache">
+    <option name="schemaMapping">
+      <map>
+        <entry key="AuthServiceImpl">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/handler.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Auth_Token">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/auth_token.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Config">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/conf/conf.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/output/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DeliverTokenByRPCArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/authservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DeliverTokenByRPCResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/authservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DeliverTokenByRPCService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/deliver_token_by_rpc.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DeliverTokenReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/auth.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DeliveryResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/auth.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Kitex">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/conf/conf.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/output/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoginArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/userservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoginReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/user.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoginResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/user.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoginResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/userservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="LoginService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/login.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MySQL">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/conf/conf.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/output/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Redis">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/conf/conf.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/output/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RegisterArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/userservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RegisterReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/user.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RegisterResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/user.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RegisterResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/userservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RegisterService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/register.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Registry">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/conf/conf.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/output/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/dal/mysql/user.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/user.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="UserServiceImpl">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/handler.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="VerifyResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/auth.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="VerifyTokenByRPCArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/authservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="VerifyTokenByRPCResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/authservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="VerifyTokenByRPCService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/verify_token_by_rpc.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="VerifyTokenReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/auth.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="kAuthServiceClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/client.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="kClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/authservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/userservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="kUserServiceClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/client.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="x">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/auth.pb.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/user.pb.go" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="scannedPathMapping">
+      <map>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/dal/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737379380220" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/dal/mysql/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737386382893" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/dal/mysql/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738920929806" />
+              <option name="schema">
+                <list>
+                  <option value="User" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/dal/redis/init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737379403833" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/model/auth_token.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737379115903" />
+              <option name="schema">
+                <list>
+                  <option value="Auth_Token" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/model/user.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738920746468" />
+              <option name="schema">
+                <list>
+                  <option value="User" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/deliver_token_by_rpc.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737726909374" />
+              <option name="schema">
+                <list>
+                  <option value="DeliverTokenByRPCService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/deliver_token_by_rpc_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737726683235" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/login.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738920234415" />
+              <option name="schema">
+                <list>
+                  <option value="LoginService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/login_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739200143400" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/register.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739199950089" />
+              <option name="schema">
+                <list>
+                  <option value="RegisterService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/register_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739200084966" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/verify_token_by_rpc.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738919023586" />
+              <option name="schema">
+                <list>
+                  <option value="VerifyTokenByRPCService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/verify_token_by_rpc_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738919099137" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/cmd/client/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738941647038" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/conf/conf.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737373958895" />
+              <option name="schema">
+                <list>
+                  <option value="Config" />
+                  <option value="MySQL" />
+                  <option value="Redis" />
+                  <option value="Kitex" />
+                  <option value="Registry" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/handler.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738929755639" />
+              <option name="schema">
+                <list>
+                  <option value="AuthServiceImpl" />
+                  <option value="UserServiceImpl" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/auth.pb.fast.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737373958898" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/auth.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737373958899" />
+              <option name="schema">
+                <list>
+                  <option value="DeliverTokenReq" />
+                  <option value="DeliveryResp" />
+                  <option value="VerifyTokenReq" />
+                  <option value="VerifyResp" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/authservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737373958899" />
+              <option name="schema">
+                <list>
+                  <option value="DeliverTokenByRPCArgs" />
+                  <option value="DeliverTokenByRPCResult" />
+                  <option value="VerifyTokenByRPCArgs" />
+                  <option value="VerifyTokenByRPCResult" />
+                  <option value="kClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737373958899" />
+              <option name="schema">
+                <list>
+                  <option value="kAuthServiceClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/invoker.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737373958899" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/server.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737373958900" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/user.pb.fast.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738919573404" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/user.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738919573405" />
+              <option name="schema">
+                <list>
+                  <option value="RegisterReq" />
+                  <option value="RegisterResp" />
+                  <option value="LoginReq" />
+                  <option value="LoginResp" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738919573405" />
+              <option name="schema">
+                <list>
+                  <option value="kUserServiceClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/invoker.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738919573406" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/server.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738919573406" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/userservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738919573406" />
+              <option name="schema">
+                <list>
+                  <option value="RegisterArgs" />
+                  <option value="RegisterResult" />
+                  <option value="LoginArgs" />
+                  <option value="LoginResult" />
+                  <option value="kClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738941647043" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/output/conf/conf.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1738762398637" />
+              <option name="schema">
+                <list>
+                  <option value="Config" />
+                  <option value="MySQL" />
+                  <option value="Redis" />
+                  <option value="Kitex" />
+                  <option value="Registry" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/main.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1737381842035" />
+            </ScannedPath>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="tableStructMapping">
+      <map>
+        <entry key="auth__token" value="Auth_Token" />
+        <entry key="auth_service_impl" value="AuthServiceImpl" />
+        <entry key="config" value="Config" />
+        <entry key="deliver_token_by_rpc_args" value="DeliverTokenByRPCArgs" />
+        <entry key="deliver_token_by_rpc_result" value="DeliverTokenByRPCResult" />
+        <entry key="deliver_token_by_rpc_service" value="DeliverTokenByRPCService" />
+        <entry key="deliver_token_req" value="DeliverTokenReq" />
+        <entry key="delivery_resp" value="DeliveryResp" />
+        <entry key="k_auth_service_client" value="kAuthServiceClient" />
+        <entry key="k_client" value="kClient" />
+        <entry key="k_user_service_client" value="kUserServiceClient" />
+        <entry key="kitex" value="Kitex" />
+        <entry key="login_args" value="LoginArgs" />
+        <entry key="login_req" value="LoginReq" />
+        <entry key="login_resp" value="LoginResp" />
+        <entry key="login_result" value="LoginResult" />
+        <entry key="login_service" value="LoginService" />
+        <entry key="my_sql" value="MySQL" />
+        <entry key="redis" value="Redis" />
+        <entry key="register_args" value="RegisterArgs" />
+        <entry key="register_req" value="RegisterReq" />
+        <entry key="register_resp" value="RegisterResp" />
+        <entry key="register_result" value="RegisterResult" />
+        <entry key="register_service" value="RegisterService" />
+        <entry key="registry" value="Registry" />
+        <entry key="user" value="User" />
+        <entry key="user_service_impl" value="UserServiceImpl" />
+        <entry key="verify_resp" value="VerifyResp" />
+        <entry key="verify_token_by_rpc_args" value="VerifyTokenByRPCArgs" />
+        <entry key="verify_token_by_rpc_result" value="VerifyTokenByRPCResult" />
+        <entry key="verify_token_by_rpc_service" value="VerifyTokenByRPCService" />
+        <entry key="verify_token_req" value="VerifyTokenReq" />
+        <entry key="x" value="x" />
+      </map>
+    </option>
+    <option name="lastTimeChecked" value="1739198760872" />
+  </component>
+</project>
