@@ -325,7 +325,7 @@
         <entry key="file://$PROJECT_DIR$/api/gen/biz/service/login.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1738920234415" />
+              <option name="lastModified" value="1739200960919" />
               <option name="schema">
                 <list>
                   <option value="LoginService" />
@@ -382,7 +382,7 @@
         <entry key="file://$PROJECT_DIR$/api/gen/cmd/client/client.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1738941647038" />
+              <option name="lastModified" value="1739201081387" />
             </ScannedPath>
           </value>
         </entry>

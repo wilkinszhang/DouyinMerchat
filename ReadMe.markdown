@@ -34,4 +34,5 @@ E:/go/pkg/mod/github.com/cloudwego/kitex@v0.12.1/pkg/remote/trans/gonet/trans_se
 
 Process finished with the exit code 2
 
-用户服务：
+用户服务：Register ok，Login ok
+

@@ -50,7 +50,7 @@ func main() {
 }
 
 func Handler(ctx context.Context, c *app.RequestContext) {
-	req := user.RegisterReq{}
+	req := user.LoginReq{}
 	//req.Email = "22@bilibili.com"
 	//req.Password = "123"
 	//req.ConfirmPassword = "123"
@@ -58,7 +58,7 @@ func Handler(ctx context.Context, c *app.RequestContext) {
 		c.String(400, err.Error())
 		return
 	}
-	resp, err := cli.Register(context.Background(), &req)
+	resp, err := cli.Login(context.Background(), &req)
 	if err != nil {
 		c.String(500, err.Error())
 		log.Fatal(err)
