@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+package stock;
+
+option go_package = "douyin_merchant/stock";
+
+service StockService {
+  // 扣减库存（支持批量）
+  rpc DecreaseStock(DecreaseStockReq) returns (StockResp);
+  // 查询库存
+  rpc GetStock(GetStockReq) returns (StockResp);
+  // 预占库存（秒杀场景专用）
+  rpc PreReduceStock(PreReduceStockReq) returns (StockResp);
+  // 回滚库存（订单取消时调用）
+  rpc RollbackStock(RollbackStockReq) returns (StockResp);
+  // 批量增加库存（运营后台使用）
+  rpc BatchAddStock(BatchAddStockReq) returns (StockResp);
+}
+
+// 基础库存信息
+message StockInfo {
+  uint32 product_id = 1;
+  int32 stock = 2;           // 实际库存
+  int32 frozen_stock = 3;    // 预占库存
+  int32 version = 4;         // 乐观锁版本号
+}
+
+// 扣减库存请求
+message DecreaseStockReq {
+  repeated StockItem items = 1;
+  string order_id = 2;       // 关联订单ID（幂等性）
+}
+
+// 预占库存请求
+message PreReduceStockReq {
+  repeated StockItem items = 1;
+  string token = 2;          // 秒杀令牌（防重复提交）
+}
+
+// 库存回滚请求
+message RollbackStockReq {
+  repeated StockItem items = 1;
+  string order_id = 2;       // 关联订单ID（幂等性）
+}
+
+// 批量增加库存请求
+message BatchAddStockReq {
+  repeated StockItem items = 1;
+}
+
+// 通用库存项
+message StockItem {
+  uint32 product_id = 1;
+  int32 num = 2;
+}
+
+// 查询库存请求
+message GetStockReq {
+  repeated uint32 product_ids = 1;
+}
+
+// 统一响应格式
+message StockResp {
+  map<uint32, StockInfo> stocks = 1; // 商品ID -> 库存信息
+  bool success = 2;
+  string message = 3;
+}

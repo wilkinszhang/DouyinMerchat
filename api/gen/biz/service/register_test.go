@@ -1,33 +1,12 @@
 package service
 
 import (
-	"DouyinMerchant/api/gen/biz/model"
 	user "DouyinMerchant/api/gen/kitex_gen/douyin_merchant/user"
 	"context"
-	"gorm.io/driver/sqlite"
-	"gorm.io/gorm"
 	"testing"
 )
 
-// setupTestDB initializes an in-memory SQLite database for testing.
-func setupTestDB(t *testing.T) *gorm.DB {
-	db, err := gorm.Open(sqlite.Open("file::memory:?cache=shared"), &gorm.Config{})
-	if err != nil {
-		t.Fatalf("Failed to open test database: %v", err)
-	}
-
-	// Migrate the schema
-	if err := db.AutoMigrate(&model.User{}); err != nil {
-		t.Fatalf("Failed to migrate schema: %v", err)
-	}
-
-	return db
-}
-
 func TestRegisterService_Run(t *testing.T) {
-	//testDB := setupTestDB(t)
-	//mysql.DB = testDB // Replace the default DB with the test DB
-
 	ctx := context.Background()
 
 	t.Run("Validation Error - Empty Email", func(t *testing.T) {

@@ -1,5 +1,5 @@
 kitex:
-  service: "user_service"
+  service: "product_service"
   address: ":8888"
   log_level: info
   log_file_name: "log/kitex.log"
@@ -15,6 +15,11 @@ registry:
 
 mysql:
   dsn: "%s:%s@tcp(%s:3310)/%s?charset=utf8mb4&parseTime=True&loc=Local"
+  username: "root"
+  password: "root"
+
+rocketmq:
+  dsn: "127.0.0.1:9876"
 
 redis:
   address: "127.0.0.1:6379"

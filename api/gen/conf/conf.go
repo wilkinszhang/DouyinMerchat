@@ -23,9 +23,14 @@ type Config struct {
 	MySQL    MySQL    `yaml:"mysql"`
 	Redis    Redis    `yaml:"redis"`
 	Registry Registry `yaml:"registry"`
+	RocketMQ RocketMQ `yaml:"rocketmq"`
 }
 
 type MySQL struct {
+	DSN string `yaml:"dsn"`
+}
+
+type RocketMQ struct {
 	DSN string `yaml:"dsn"`
 }
 

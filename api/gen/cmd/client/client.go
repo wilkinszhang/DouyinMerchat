@@ -2,8 +2,8 @@ package main
 
 import (
 	"DouyinMerchant/api/gen/conf"
-	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/user"
-	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/user/userservice"
+	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/product"
+	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/product/productservice"
 	"context"
 	"github.com/cloudwego/hertz/pkg/app"
 	"github.com/cloudwego/hertz/pkg/app/server"
@@ -15,7 +15,7 @@ import (
 )
 
 var (
-	cli userservice.Client
+	cli productservice.Client
 )
 
 func main() {
@@ -23,7 +23,7 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-	c, err := userservice.NewClient("user_service", client.WithResolver(r),
+	c, err := productservice.NewClient("product_service", client.WithResolver(r),
 		client.WithTransportProtocol(transport.GRPC),
 		client.WithMetaHandler(transmeta.ClientHTTP2Handler),
 		//client.WithFailureRetry(retry.NewFailurePolicy()),       //增加重试
@@ -40,7 +40,7 @@ func main() {
 		//server.WithIdleTimeout(300*time.Second),    //限制空闲超时
 	)
 
-	hz.POST("/user_service", Handler)
+	hz.POST("/product_service", Handler)
 
 	if err := hz.Run(); err != nil {
 		log.Fatal(err)
@@ -50,7 +50,7 @@ func main() {
 }
 
 func Handler(ctx context.Context, c *app.RequestContext) {
-	req := user.LoginReq{}
+	req := product.SearchProductsReq{}
 	//req.Email = "22@bilibili.com"
 	//req.Password = "123"
 	//req.ConfirmPassword = "123"
@@ -58,7 +58,7 @@ func Handler(ctx context.Context, c *app.RequestContext) {
 		c.String(400, err.Error())
 		return
 	}
-	resp, err := cli.Login(context.Background(), &req)
+	resp, err := cli.SearchProducts(context.Background(), &req)
 	if err != nil {
 		c.String(500, err.Error())
 		log.Fatal(err)

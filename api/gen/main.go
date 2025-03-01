@@ -2,7 +2,9 @@ package main
 
 import (
 	"DouyinMerchant/api/gen/biz/dal"
-	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/user/userservice"
+	"DouyinMerchant/api/gen/biz/service"
+	"DouyinMerchant/api/gen/kitex_gen/douyin_merchant/product/productservice"
+	"DouyinMerchant/mq"
 	consul "github.com/kitex-contrib/registry-consul"
 	"net"
 	"time"
@@ -32,7 +34,19 @@ func main() {
 
 	dal.Init()
 
-	svr := userservice.NewServer(new(UserServiceImpl), opts...)
+	// 初始化生产者
+	if err := mq.InitProducer(); err != nil {
+		panic(err)
+	}
+	defer mq.ShutdownProducer()
+	go service.StartOrderConsumer()
+	//[PlaceOrderService] --> (DB)
+	//	↓
+	//	[RocketMQ Producer] --延迟消息--> [RocketMQ Broker]
+	//	↓
+	//	[OrderConsumer] --> (检查订单状态) --> [更新订单状态]
+
+	svr := productservice.NewServer(new(ProductServiceImpl), opts...)
 
 	err = svr.Run()
 	if err != nil {
