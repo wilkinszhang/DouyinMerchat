@@ -3,6 +3,48 @@
   <component name="GoORMHelperCache">
     <option name="schemaMapping">
       <map>
+        <entry key="AddItemArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/cartservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AddItemReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AddItemResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AddItemResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/cartservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="AddItemService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/add_item.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Address">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="AuthServiceImpl">
           <value>
             <set>
@@ -17,11 +59,117 @@
             </set>
           </value>
         </entry>
+        <entry key="Base">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/base.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BatchAddStockArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BatchAddStockReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BatchAddStockResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="BatchAddStockService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/batch_add_stock.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CachedProductQuery">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/product.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Cart">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/cart.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CartItem">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Category">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/category.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="CommonGrpcClientSuite">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/common/clientsuite/client.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Config">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/api/gen/conf/conf.go" />
               <option value="file://$PROJECT_DIR$/api/gen/output/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Consignee">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DecreaseStockArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DecreaseStockReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DecreaseStockResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="DecreaseStockService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/decrease_stock.go" />
             </set>
           </value>
         </entry>
@@ -60,11 +208,218 @@
             </set>
           </value>
         </entry>
+        <entry key="EmptyCartArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/cartservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EmptyCartReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EmptyCartResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EmptyCartResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/cartservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="EmptyCartService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/empty_cart.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetCartArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/cartservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetCartReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetCartResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetCartResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/cartservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetCartService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/get_cart.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetProductArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productcatalogservice/productcatalogservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/productservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetProductReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetProductResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetProductResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productcatalogservice/productcatalogservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/productservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetProductService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/get_product.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetStockArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetStockReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetStockResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="GetStockService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/get_stock.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="Kitex">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/api/gen/conf/conf.go" />
               <option value="file://$PROJECT_DIR$/api/gen/output/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListOrderArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/orderservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListOrderReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListOrderResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListOrderResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/orderservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListOrderService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/list_order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListProductsArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productcatalogservice/productcatalogservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/productservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListProductsReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListProductsResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListProductsResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productcatalogservice/productcatalogservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/productservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ListProductsService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/list_products.go" />
             </set>
           </value>
         </entry>
@@ -103,11 +458,162 @@
             </set>
           </value>
         </entry>
+        <entry key="MarkOrderPaidArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/orderservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MarkOrderPaidReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MarkOrderPaidResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MarkOrderPaidResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/orderservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="MarkOrderPaidService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/mark_order_paid.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="MySQL">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/api/gen/conf/conf.go" />
               <option value="file://$PROJECT_DIR$/api/gen/output/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Order">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/order.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="OrderItem">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/order_item.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="OrderResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PlaceOrderArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/orderservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PlaceOrderReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PlaceOrderResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PlaceOrderResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/orderservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PlaceOrderService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/place_order.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PreReduceStockArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PreReduceStockReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PreReduceStockResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="PreReduceStockService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/decrease_stock.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/pre_reduce_stock.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Product">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/product.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ProductQuery">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/product.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ProductServiceImpl">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/handler.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="ProductWithCategories">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/category.go" />
             </set>
           </value>
         </entry>
@@ -162,6 +668,113 @@
             </set>
           </value>
         </entry>
+        <entry key="Result">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/product.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RocketMQ">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/conf/conf.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RollbackStockArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RollbackStockReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RollbackStockResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="RollbackStockService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/rollback_stock.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SearchProductsArgs">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productcatalogservice/productcatalogservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/productservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SearchProductsReq">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SearchProductsResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/product.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SearchProductsResult">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productcatalogservice/productcatalogservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/productservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="SearchProductsService">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/service/search_products.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="Stock">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/biz/model/stock.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StockInfo">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StockItem">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="StockResp">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="User">
           <value>
             <set>
@@ -212,6 +825,13 @@
             </set>
           </value>
         </entry>
+        <entry key="clientImpl">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/rpc/product_service/product_service_client.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="kAuthServiceClient">
           <value>
             <set>
@@ -219,11 +839,44 @@
             </set>
           </value>
         </entry>
+        <entry key="kCartServiceClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/client.go" />
+            </set>
+          </value>
+        </entry>
         <entry key="kClient">
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/authservice/authservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/cartservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/orderservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productcatalogservice/productcatalogservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/productservice.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go" />
               <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/userservice/userservice.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="kOrderServiceClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/client.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="kProductServiceClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/client.go" />
+            </set>
+          </value>
+        </entry>
+        <entry key="kStockServiceClient">
+          <value>
+            <set>
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/client.go" />
             </set>
           </value>
         </entry>
@@ -238,6 +891,10 @@
           <value>
             <set>
               <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/auth/auth.pb.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/product.pb.go" />
+              <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.go" />
               <option value="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/user/user.pb.go" />
             </set>
           </value>
@@ -256,7 +913,7 @@
         <entry key="file://$PROJECT_DIR$/api/gen/biz/dal/mysql/init.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1737386382893" />
+              <option name="lastModified" value="1739448997283" />
             </ScannedPath>
           </value>
         </entry>
@@ -275,7 +932,7 @@
         <entry key="file://$PROJECT_DIR$/api/gen/biz/dal/redis/init.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1737379403833" />
+              <option name="lastModified" value="1740799747371" />
             </ScannedPath>
           </value>
         </entry>
@@ -291,6 +948,95 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/model/base.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793996742" />
+              <option name="schema">
+                <list>
+                  <option value="Base" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/model/cart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793863253" />
+              <option name="schema">
+                <list>
+                  <option value="Cart" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/model/category.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739451484185" />
+              <option name="schema">
+                <list>
+                  <option value="Category" />
+                  <option value="ProductWithCategories" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/model/order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796040978" />
+              <option name="schema">
+                <list>
+                  <option value="Consignee" />
+                  <option value="Order" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/model/order_item.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740794230503" />
+              <option name="schema">
+                <list>
+                  <option value="OrderItem" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/model/product.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739460157506" />
+              <option name="schema">
+                <list>
+                  <option value="Product" />
+                  <option value="ProductQuery" />
+                  <option value="CachedProductQuery" />
+                  <option value="Result" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/model/stock.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740799097735" />
+              <option name="schema">
+                <list>
+                  <option value="Stock" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/api/gen/biz/model/user.go">
           <value>
             <ScannedPath>
@@ -300,6 +1046,63 @@
                   <option value="User" />
                 </list>
               </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/add_item.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796420155" />
+              <option name="schema">
+                <list>
+                  <option value="AddItemService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/add_item_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981011" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/batch_add_stock.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740799222914" />
+              <option name="schema">
+                <list>
+                  <option value="BatchAddStockService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/batch_add_stock_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981013" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/decrease_stock.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740799313300" />
+              <option name="schema">
+                <list>
+                  <option value="DecreaseStockService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/decrease_stock_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981014" />
             </ScannedPath>
           </value>
         </entry>
@@ -322,6 +1125,120 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/empty_cart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796444820" />
+              <option name="schema">
+                <list>
+                  <option value="EmptyCartService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/empty_cart_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981014" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/get_cart.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796437555" />
+              <option name="schema">
+                <list>
+                  <option value="GetCartService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/get_cart_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981015" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/get_product.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739433707275" />
+              <option name="schema">
+                <list>
+                  <option value="GetProductService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/get_product_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981015" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/get_stock.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740799152942" />
+              <option name="schema">
+                <list>
+                  <option value="GetStockService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/get_stock_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981016" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/list_order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796471388" />
+              <option name="schema">
+                <list>
+                  <option value="ListOrderService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/list_order_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981016" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/list_products.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739450606073" />
+              <option name="schema">
+                <list>
+                  <option value="ListProductsService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/list_products_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739431492794" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/api/gen/biz/service/login.go">
           <value>
             <ScannedPath>
@@ -341,6 +1258,70 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/mark_order_paid.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796471392" />
+              <option name="schema">
+                <list>
+                  <option value="MarkOrderPaidService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/mark_order_paid_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981017" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/order_consumer.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796050088" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/place_order.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796420150" />
+              <option name="schema">
+                <list>
+                  <option value="PlaceOrderService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/place_order_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981017" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/pre_reduce_stock.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740799253043" />
+              <option name="schema">
+                <list>
+                  <option value="PreReduceStockService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/pre_reduce_stock_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981018" />
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/api/gen/biz/service/register.go">
           <value>
             <ScannedPath>
@@ -356,7 +1337,45 @@
         <entry key="file://$PROJECT_DIR$/api/gen/biz/service/register_test.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739200084966" />
+              <option name="lastModified" value="1739373384159" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/rollback_stock.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740799575965" />
+              <option name="schema">
+                <list>
+                  <option value="RollbackStockService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/rollback_stock_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796981019" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/search_products.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739460441473" />
+              <option name="schema">
+                <list>
+                  <option value="SearchProductsService" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/biz/service/search_products_test.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1739460441468" />
             </ScannedPath>
           </value>
         </entry>
@@ -382,18 +1401,19 @@
         <entry key="file://$PROJECT_DIR$/api/gen/cmd/client/client.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1739201081387" />
+              <option name="lastModified" value="1739609784964" />
             </ScannedPath>
           </value>
         </entry>
         <entry key="file://$PROJECT_DIR$/api/gen/conf/conf.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1737373958895" />
+              <option name="lastModified" value="1740795984832" />
               <option name="schema">
                 <list>
                   <option value="Config" />
                   <option value="MySQL" />
+                  <option value="RocketMQ" />
                   <option value="Redis" />
                   <option value="Kitex" />
                   <option value="Registry" />
@@ -405,13 +1425,21 @@
         <entry key="file://$PROJECT_DIR$/api/gen/handler.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1738929755639" />
+              <option name="lastModified" value="1740796622007" />
               <option name="schema">
                 <list>
                   <option value="AuthServiceImpl" />
                   <option value="UserServiceImpl" />
+                  <option value="ProductServiceImpl" />
                 </list>
               </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/infra/rpc/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793755308" />
             </ScannedPath>
           </value>
         </entry>
@@ -477,6 +1505,320 @@
           <value>
             <ScannedPath>
               <option name="lastModified" value="1737373958900" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.fast.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367422" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cart.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367422" />
+              <option name="schema">
+                <list>
+                  <option value="CartItem" />
+                  <option value="AddItemReq" />
+                  <option value="AddItemResp" />
+                  <option value="EmptyCartReq" />
+                  <option value="GetCartReq" />
+                  <option value="GetCartResp" />
+                  <option value="Cart" />
+                  <option value="EmptyCartResp" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/cartservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367424" />
+              <option name="schema">
+                <list>
+                  <option value="AddItemArgs" />
+                  <option value="AddItemResult" />
+                  <option value="GetCartArgs" />
+                  <option value="GetCartResult" />
+                  <option value="EmptyCartArgs" />
+                  <option value="EmptyCartResult" />
+                  <option value="kClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367424" />
+              <option name="schema">
+                <list>
+                  <option value="kCartServiceClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/invoker.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367424" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/cart/cartservice/server.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367425" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.fast.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367423" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/order.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367423" />
+              <option name="schema">
+                <list>
+                  <option value="Address" />
+                  <option value="PlaceOrderReq" />
+                  <option value="OrderItem" />
+                  <option value="OrderResult" />
+                  <option value="PlaceOrderResp" />
+                  <option value="ListOrderReq" />
+                  <option value="Order" />
+                  <option value="ListOrderResp" />
+                  <option value="MarkOrderPaidReq" />
+                  <option value="MarkOrderPaidResp" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367425" />
+              <option name="schema">
+                <list>
+                  <option value="kOrderServiceClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/invoker.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367425" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/orderservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367426" />
+              <option name="schema">
+                <list>
+                  <option value="PlaceOrderArgs" />
+                  <option value="PlaceOrderResult" />
+                  <option value="ListOrderArgs" />
+                  <option value="ListOrderResult" />
+                  <option value="MarkOrderPaidArgs" />
+                  <option value="MarkOrderPaidResult" />
+                  <option value="kClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/order/orderservice/server.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796367426" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/product.pb.fast.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793190644" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/product.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793190645" />
+              <option name="schema">
+                <list>
+                  <option value="Product" />
+                  <option value="ListProductsReq" />
+                  <option value="ListProductsResp" />
+                  <option value="GetProductReq" />
+                  <option value="GetProductResp" />
+                  <option value="SearchProductsReq" />
+                  <option value="SearchProductsResp" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productcatalogservice/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740792684108" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productcatalogservice/productcatalogservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740792575441" />
+              <option name="schema">
+                <list>
+                  <option value="ListProductsArgs" />
+                  <option value="ListProductsResult" />
+                  <option value="GetProductArgs" />
+                  <option value="GetProductResult" />
+                  <option value="SearchProductsArgs" />
+                  <option value="SearchProductsResult" />
+                  <option value="kClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793190645" />
+              <option name="schema">
+                <list>
+                  <option value="kProductServiceClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/invoker.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793190646" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/productservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793190646" />
+              <option name="schema">
+                <list>
+                  <option value="ListProductsArgs" />
+                  <option value="ListProductsResult" />
+                  <option value="GetProductArgs" />
+                  <option value="GetProductResult" />
+                  <option value="SearchProductsArgs" />
+                  <option value="SearchProductsResult" />
+                  <option value="kClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/product/productservice/server.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793190646" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.fast.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796522762" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stock.pb.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796522762" />
+              <option name="schema">
+                <list>
+                  <option value="StockInfo" />
+                  <option value="DecreaseStockReq" />
+                  <option value="PreReduceStockReq" />
+                  <option value="RollbackStockReq" />
+                  <option value="BatchAddStockReq" />
+                  <option value="StockItem" />
+                  <option value="GetStockReq" />
+                  <option value="StockResp" />
+                  <option value="x" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796522762" />
+              <option name="schema">
+                <list>
+                  <option value="kStockServiceClient" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/invoker.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796522763" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/server.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796522763" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/kitex_gen/douyin_merchant/stock/stockservice/stockservice.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740796522763" />
+              <option name="schema">
+                <list>
+                  <option value="DecreaseStockArgs" />
+                  <option value="DecreaseStockResult" />
+                  <option value="GetStockArgs" />
+                  <option value="GetStockResult" />
+                  <option value="PreReduceStockArgs" />
+                  <option value="PreReduceStockResult" />
+                  <option value="RollbackStockArgs" />
+                  <option value="RollbackStockResult" />
+                  <option value="BatchAddStockArgs" />
+                  <option value="BatchAddStockResult" />
+                  <option value="kClient" />
+                </list>
+              </option>
             </ScannedPath>
           </value>
         </entry>
@@ -548,7 +1890,7 @@
         <entry key="file://$PROJECT_DIR$/api/gen/main.go">
           <value>
             <ScannedPath>
-              <option name="lastModified" value="1738941647043" />
+              <option name="lastModified" value="1740796127530" />
             </ScannedPath>
           </value>
         </entry>
@@ -568,6 +1910,51 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/rpc/product_service/product_service_client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793190643" />
+              <option name="schema">
+                <list>
+                  <option value="clientImpl" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/rpc/product_service/product_service_default.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793190644" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/rpc/product_service/product_service_init.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793190644" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/api/gen/utils/errors.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793755383" />
+            </ScannedPath>
+          </value>
+        </entry>
+        <entry key="file://$PROJECT_DIR$/common/clientsuite/client.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740793599862" />
+              <option name="schema">
+                <list>
+                  <option value="CommonGrpcClientSuite" />
+                </list>
+              </option>
+            </ScannedPath>
+          </value>
+        </entry>
         <entry key="file://$PROJECT_DIR$/main.go">
           <value>
             <ScannedPath>
@@ -575,28 +1962,111 @@
             </ScannedPath>
           </value>
         </entry>
+        <entry key="file://$PROJECT_DIR$/mq/producer.go">
+          <value>
+            <ScannedPath>
+              <option name="lastModified" value="1740794900867" />
+            </ScannedPath>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="tableStructMapping">
       <map>
+        <entry key="add_item_args" value="AddItemArgs" />
+        <entry key="add_item_req" value="AddItemReq" />
+        <entry key="add_item_resp" value="AddItemResp" />
+        <entry key="add_item_result" value="AddItemResult" />
+        <entry key="add_item_service" value="AddItemService" />
+        <entry key="address" value="Address" />
         <entry key="auth__token" value="Auth_Token" />
         <entry key="auth_service_impl" value="AuthServiceImpl" />
+        <entry key="base" value="Base" />
+        <entry key="batch_add_stock_args" value="BatchAddStockArgs" />
+        <entry key="batch_add_stock_req" value="BatchAddStockReq" />
+        <entry key="batch_add_stock_result" value="BatchAddStockResult" />
+        <entry key="batch_add_stock_service" value="BatchAddStockService" />
+        <entry key="cached_product_query" value="CachedProductQuery" />
+        <entry key="cart" value="Cart" />
+        <entry key="cart_item" value="CartItem" />
+        <entry key="category" value="Category" />
+        <entry key="client_impl" value="clientImpl" />
+        <entry key="common_grpc_client_suite" value="CommonGrpcClientSuite" />
         <entry key="config" value="Config" />
+        <entry key="consignee" value="Consignee" />
+        <entry key="decrease_stock_args" value="DecreaseStockArgs" />
+        <entry key="decrease_stock_req" value="DecreaseStockReq" />
+        <entry key="decrease_stock_result" value="DecreaseStockResult" />
+        <entry key="decrease_stock_service" value="DecreaseStockService" />
         <entry key="deliver_token_by_rpc_args" value="DeliverTokenByRPCArgs" />
         <entry key="deliver_token_by_rpc_result" value="DeliverTokenByRPCResult" />
         <entry key="deliver_token_by_rpc_service" value="DeliverTokenByRPCService" />
         <entry key="deliver_token_req" value="DeliverTokenReq" />
         <entry key="delivery_resp" value="DeliveryResp" />
+        <entry key="empty_cart_args" value="EmptyCartArgs" />
+        <entry key="empty_cart_req" value="EmptyCartReq" />
+        <entry key="empty_cart_resp" value="EmptyCartResp" />
+        <entry key="empty_cart_result" value="EmptyCartResult" />
+        <entry key="empty_cart_service" value="EmptyCartService" />
+        <entry key="get_cart_args" value="GetCartArgs" />
+        <entry key="get_cart_req" value="GetCartReq" />
+        <entry key="get_cart_resp" value="GetCartResp" />
+        <entry key="get_cart_result" value="GetCartResult" />
+        <entry key="get_cart_service" value="GetCartService" />
+        <entry key="get_product_args" value="GetProductArgs" />
+        <entry key="get_product_req" value="GetProductReq" />
+        <entry key="get_product_resp" value="GetProductResp" />
+        <entry key="get_product_result" value="GetProductResult" />
+        <entry key="get_product_service" value="GetProductService" />
+        <entry key="get_stock_args" value="GetStockArgs" />
+        <entry key="get_stock_req" value="GetStockReq" />
+        <entry key="get_stock_result" value="GetStockResult" />
+        <entry key="get_stock_service" value="GetStockService" />
         <entry key="k_auth_service_client" value="kAuthServiceClient" />
+        <entry key="k_cart_service_client" value="kCartServiceClient" />
         <entry key="k_client" value="kClient" />
+        <entry key="k_order_service_client" value="kOrderServiceClient" />
+        <entry key="k_product_service_client" value="kProductServiceClient" />
+        <entry key="k_stock_service_client" value="kStockServiceClient" />
         <entry key="k_user_service_client" value="kUserServiceClient" />
         <entry key="kitex" value="Kitex" />
+        <entry key="list_order_args" value="ListOrderArgs" />
+        <entry key="list_order_req" value="ListOrderReq" />
+        <entry key="list_order_resp" value="ListOrderResp" />
+        <entry key="list_order_result" value="ListOrderResult" />
+        <entry key="list_order_service" value="ListOrderService" />
+        <entry key="list_products_args" value="ListProductsArgs" />
+        <entry key="list_products_req" value="ListProductsReq" />
+        <entry key="list_products_resp" value="ListProductsResp" />
+        <entry key="list_products_result" value="ListProductsResult" />
+        <entry key="list_products_service" value="ListProductsService" />
         <entry key="login_args" value="LoginArgs" />
         <entry key="login_req" value="LoginReq" />
         <entry key="login_resp" value="LoginResp" />
         <entry key="login_result" value="LoginResult" />
         <entry key="login_service" value="LoginService" />
+        <entry key="mark_order_paid_args" value="MarkOrderPaidArgs" />
+        <entry key="mark_order_paid_req" value="MarkOrderPaidReq" />
+        <entry key="mark_order_paid_resp" value="MarkOrderPaidResp" />
+        <entry key="mark_order_paid_result" value="MarkOrderPaidResult" />
+        <entry key="mark_order_paid_service" value="MarkOrderPaidService" />
         <entry key="my_sql" value="MySQL" />
+        <entry key="order" value="Order" />
+        <entry key="order_item" value="OrderItem" />
+        <entry key="order_result" value="OrderResult" />
+        <entry key="place_order_args" value="PlaceOrderArgs" />
+        <entry key="place_order_req" value="PlaceOrderReq" />
+        <entry key="place_order_resp" value="PlaceOrderResp" />
+        <entry key="place_order_result" value="PlaceOrderResult" />
+        <entry key="place_order_service" value="PlaceOrderService" />
+        <entry key="pre_reduce_stock_args" value="PreReduceStockArgs" />
+        <entry key="pre_reduce_stock_req" value="PreReduceStockReq" />
+        <entry key="pre_reduce_stock_result" value="PreReduceStockResult" />
+        <entry key="pre_reduce_stock_service" value="PreReduceStockService" />
+        <entry key="product" value="Product" />
+        <entry key="product_query" value="ProductQuery" />
+        <entry key="product_service_impl" value="ProductServiceImpl" />
+        <entry key="product_with_categories" value="ProductWithCategories" />
         <entry key="redis" value="Redis" />
         <entry key="register_args" value="RegisterArgs" />
         <entry key="register_req" value="RegisterReq" />
@@ -604,6 +2074,21 @@
         <entry key="register_result" value="RegisterResult" />
         <entry key="register_service" value="RegisterService" />
         <entry key="registry" value="Registry" />
+        <entry key="result" value="Result" />
+        <entry key="rocket_mq" value="RocketMQ" />
+        <entry key="rollback_stock_args" value="RollbackStockArgs" />
+        <entry key="rollback_stock_req" value="RollbackStockReq" />
+        <entry key="rollback_stock_result" value="RollbackStockResult" />
+        <entry key="rollback_stock_service" value="RollbackStockService" />
+        <entry key="search_products_args" value="SearchProductsArgs" />
+        <entry key="search_products_req" value="SearchProductsReq" />
+        <entry key="search_products_resp" value="SearchProductsResp" />
+        <entry key="search_products_result" value="SearchProductsResult" />
+        <entry key="search_products_service" value="SearchProductsService" />
+        <entry key="stock" value="Stock" />
+        <entry key="stock_info" value="StockInfo" />
+        <entry key="stock_item" value="StockItem" />
+        <entry key="stock_resp" value="StockResp" />
         <entry key="user" value="User" />
         <entry key="user_service_impl" value="UserServiceImpl" />
         <entry key="verify_resp" value="VerifyResp" />
@@ -614,6 +2099,6 @@
         <entry key="x" value="x" />
       </map>
     </option>
-    <option name="lastTimeChecked" value="1739198760872" />
+    <option name="lastTimeChecked" value="1740791647792" />
   </component>
 </project>
